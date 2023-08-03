@@ -30,7 +30,7 @@ int main()
 {
 	int arr[5] = { 7,9,3,2,6};
     printf("the input array is:\n");
-    for(int k=0;k<6;k++)
+    for(int k=0;k<5;k++)
     printf("%d ",arr[k]);
     int N = sizeof(arr) / sizeof(arr[0]);
 	quickSort(arr, 0, N - 1);
